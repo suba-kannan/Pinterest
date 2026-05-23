@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://pinterest-my5n.onrender.com/api',
 });
 
 // Request interceptor to attach JWT token
